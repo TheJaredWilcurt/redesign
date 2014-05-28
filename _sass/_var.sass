@@ -1,0 +1,61 @@
+
+// Supplies mixins and variables that other .scss files can call
+
+@mixin bmp0
+    border: 0px
+    margin: 0px
+    padding: 0px
+
+@mixin anim($sec)
+    -webkit-transition: all $sec ease
+    -moz-transition: all $sec ease
+    -o-transition: all $sec ease
+    transition: all $sec ease
+
+@mixin gradient($fromColor, $toColor)
+    background-color: $toColor
+    background-image: -webkit-gradient(linear, left top, left bottom, from($fromColor), to($toColor))
+    background-image: -webkit-linear-gradient(top, $fromColor, $toColor)
+    background-image: -moz-linear-gradient(top, $fromColor, $toColor)
+    background-image: -ms-linear-gradient(top, $fromColor, $toColor)
+    background-image: -o-linear-gradient(top, $fromColor, $toColor)
+    background-image: linear-gradient(top, $fromColor, $toColor)
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#{$fromColor}', EndColorStr='#{$toColor}')
+
+// Height and Width Variables
+$WrapperPageSize: 960px
+$MainSideBarWidth: 185px
+$MainSideBarHeight: 900px
+$MainContentWidth: $WrapperPageSize - $MainSideBarWidth
+$TwitterBoxWidth: 529px
+$TwitterBoxHeight: 300px
+$ResourcesBoxPadding: 10px
+$ResourcesBoxWidth: 226px - $ResourcesBoxPadding
+$JoomlaBoxWidth: $TwitterBoxWidth + $ResourcesBoxPadding + $ResourcesBoxWidth
+$JoomlaBoxHeight: 375px
+
+// Base Color Values
+$BaseColor: hsl(228,45,37)                                                           //#348 or 228,45,37
+$BaseDark: adjust-hue(darken(desaturate($BaseColor, 25), 20), 13)                    //#223
+$BaseLight: adjust-hue(lighten(desaturate($BaseColor, 12), 13), 0)                   //#56A
+$BaseAccent: adjust-hue(lighten(saturate($BaseColor, 54), 50), 192)                  //#FFB
+$BaseTrim: adjust-hue(lighten(saturate($BaseColor, 26), 40), 180)                    //#ED9
+
+// Color Variables
+$BodyBgColor: adjust-hue(darken(saturate($BaseColor, 10), 7.5), 0)                   //#223275
+$BuildingNavBorderColor: $BaseLight                                                  //#56A
+$BuildingNavBgColor: lighten(saturate(adjust-hue($BaseColor, 357), 45.5), 61)        //#F4F7FF
+$SearchNavBtnBgColor: saturate(darken($BaseColor, 5), 12)                            //#233680
+$SideBarBorderColor: desaturate(darken($BaseColor, 5.5), 10)                         //#343F6C
+$SideBarH3DarkColor: saturate(lighten($BaseColor, 60), 100)                          //#F0F3FF
+$SideBarH3LightColor: saturate(lighten($BaseColor, 56), 100)                         //#DBE2FF
+$SidebarH3TextColor: saturate(darken($BaseColor, 24), 50)                            //#020E41
+$BreadcrumbsHoverLinkColor: saturate(lighten(adjust-hue($BaseColor, 138), 28.9), 32) //#F06F61
+$TwitterBorderColor: lighten(desaturate($BaseColor, 45), 55)                         //#EBEBEB
+$ResourcesH3DarkColor: $BaseColor                                                    //#348
+$ResourcesH3LightColor: $BaseLight                                                   //#56A
+$ResourcesH3BorderColor: darken(saturate($BaseColor, 11), 7)                         //#237
+$ResourcesH3TextColor: $BaseTrim                                                     //#ED9
+$FooterColor: saturate(shade($BaseColor, 60), 60)                                    //#000F4A
+$FooterLinkColor: desaturate(lighten($BaseColor, 35), 10)                            //#9FA9D1
+$FooterQuoteColor: saturate(darken($BaseColor, 7), 11.5)                             //#213378

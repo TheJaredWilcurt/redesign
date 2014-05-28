@@ -1,0 +1,108 @@
+//Homepages for any builing. This controls the CSS for the Twitter, Resources, and News Feed boxes
+
+#TwitterBox
+    display: inline-block
+    background-color: rgba(255,255,255,0.1)
+    width: $TwitterBoxWidth
+    height: $TwitterBoxHeight
+    border: 1px solid rgba(206, 206, 206, 0.36)
+    margin: 10px 0px 0px 10px
+    padding: 0px 0px 7px 7px
+    font-size: 16px
+    text-align: right
+    vertical-align: top
+    .twitter-timeline
+        display: block
+        width: $TwitterBoxWidth
+        height: $TwitterBoxHeight
+        color: #224
+        text-align: center
+        font-size: 1.5em
+        font-weight: bold
+    iframe,
+    iframe .twitter-timeline
+        height: $TwitterBoxHeight
+    iframe .inline-media img,
+    iframe .inline-media,
+    iframe img
+        max-height: $TwitterBoxHeight - 90px !important
+    iframe .var-chromeless button.load-more,
+    button.load-more.customisable
+        background-color: #CCC
+
+#ResourcesBox
+    display: inline-block
+    width: $ResourcesBoxWidth
+    height: $TwitterBoxHeight
+    border: 1px solid $TwitterBorderColor
+    margin: 10px 0px 0px $ResourcesBoxPadding
+    vertical-align: top
+    font-size: 16px
+    div
+        height: 205px
+        overflow: auto
+    h3
+        font-size: 16px
+        font-weight: bold
+        padding: 8px 0px 6px 3px
+        border-width: 0px 0px 1px 0px
+        border-style: solid
+        border-color: $ResourcesH3BorderColor
+        background-color: $ResourcesH3LightColor
+        color: $ResourcesH3TextColor
+        span //carets
+            font-size: 0.6em
+            position: relative
+            top: -2px
+            left: 2px
+            margin: 0px 3px 0px 0px
+        &:nth-of-type(odd)
+            background-color: $ResourcesH3DarkColor
+    p
+        margin: 0px
+        padding: 6px 0px 3px 10px
+        background-color: #EEE
+        font-size: 0.9em
+    p:nth-of-type(even)
+        background-color: #FAFAFA
+    .empty
+        border: 0px !important
+        margin: 0px
+        padding: 0px
+        font-size: 0px
+    .selected
+        background-color: $BaseColor !important
+        color: #EEE !important
+        font-weight: bold
+
+#JoomlaBox
+    display: block
+    width: $JoomlaBoxWidth
+    height: $JoomlaBoxHeight
+    border: 1px solid $TwitterBorderColor
+    margin: 15px 0px 15px 10px
+    font-size: 16px
+    overflow: auto
+    h1
+        margin: 20px 0px 14px 7px
+        padding: 0px
+        font-family: "Helvetica Neue", Arial, sans-serif
+        font-size: 18px
+        font-variant: normal
+        letter-spacing: 0px
+    p
+        display: none
+    li
+        +gradient(#FFFFFF,#F7F7F7)
+        border-width: 1px 0px 0px 0px
+        border-style: solid
+        border-color: darken($TwitterBorderColor, 15%)
+        margin: 0px 10px 0px 12px
+        padding: 14px 5px 14px 5px
+        font-size: 0.8em
+    a
+        font-weight: bold
+        font-size: 1.1em
+        &:last-of-type
+            font-weight: normal
+            font-size: 1em

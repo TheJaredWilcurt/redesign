@@ -1,0 +1,98 @@
+// For the header, nav, and breadcrumbs that appear on every page.
+
+header
+    background-color: #F3F3F3
+    border-width: 0px 0px 1px 0px
+    border-color: #AAAAAA
+    border-style: solid
+    height: 140px
+    text-align: right
+    position: relative
+    .logo
+        display: inline-block
+        max-width: 160px
+        max-height: 144px
+        position: absolute
+        top: 15px
+        left: 12px
+        img
+            display: inline-block
+            max-width: 160px
+            max-height: 144px
+
+#BuildingNav
+    width: $MainContentWidth
+    position: absolute
+    top: 5px
+    right: 0px
+    text-align: center
+    font-size: 0px
+    a
+        border-width: 0px 0px 1px 1px
+        border-style: solid
+        border-color: $BuildingNavBorderColor
+        padding: 5px 5px 5px 5px
+        font-size: 15px
+        background-color: $BuildingNavBgColor
+        border-radius: 0px 0px 8px 8px
+        box-shadow: 1px 1px 5px rgba(0,0,0,0.2)
+        text-decoration: none
+        &:last-of-type
+            border-width: 0px 1px 1px 1px
+        &:hover
+            text-decoration: underline
+    .selected
+        position: relative
+        top: 1px
+        padding: 10px 6px 7px 6px
+        background-color: #FFF
+        font-weight: bold
+        text-decoration: none
+
+#HeaderNav
+    display: inline-block
+    vertical-align: middle
+    position: absolute
+    bottom: 13px
+    left: 193px
+    span
+        &:after
+            content: "|"
+            display: inline-block
+            padding: 0px 1px 0px 5px
+        &:last-of-type:after
+            display: none
+    a
+        text-decoration: none
+        &:hover
+            text-decoration: underline
+        &:active
+            text-decoration: underline
+    .selected,
+    .selected:hover
+        text-decoration: underline
+
+#SearchNav
+    display: inline-block
+    font-size: 0px
+    vertical-align: middle
+    position: absolute
+    bottom: 7px
+    right: 10px
+    input
+        vertical-align: bottom
+        color: #5F5F5F
+        height: 25px
+        font-size: 13px
+        &[type=text]
+            width: 191px
+        &[type=image]
+            background-color: $SearchNavBtnBgColor
+
+
+
+
+
+
+
+

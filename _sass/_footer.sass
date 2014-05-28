@@ -1,0 +1,81 @@
+
+// For the Footer that appears at the bottom of every page
+
+footer
+    min-width: $WrapperPageSize
+    min-height: 150px
+    padding: 10px 10px 40px 10px
+    background-color: $FooterColor
+    margin: 0px
+    color: #FFF
+    a
+        color: #FFF
+        text-decoration: none
+
+#FooterContainer
+    width: $WrapperPageSize
+    margin: 0 auto
+    vertical-align: bottom
+
+#FooterNav
+    display: inline-block
+    width: 225px
+    margin: 8px 0px 0px 0px
+    strong
+        display: block
+        margin: 0px 0px 10px 0px
+    a
+        display: block
+        color: $FooterLinkColor
+        font-size: 0.9em
+        line-height: 1.3em
+
+#FooterQuote
+    display: inline-block
+    width: 381px
+    background-color: $FooterQuoteColor
+    border: 2px solid $BaseColor
+    padding: 20px 28px
+    font-size: 0.9em
+    line-height: 1.25em
+    letter-spacing: 0.03em
+    text-align: center
+    vertical-align: top
+    margin: 2px 0px 0px 0px
+
+#FooterSocial
+    display: inline-block
+    margin: 8px 34px 0px 38px
+    vertical-align: top
+    a
+        color: $FooterLinkColor
+        height: 20px
+    .fb,
+    .tw
+        font-size: 0.8em
+        display: block
+        padding: 0px
+        margin: 10px 0px 0px 0px
+        &::before
+            display: inline-block
+            content: ""
+            width: 20px
+            height: 20px
+            margin: 0px 7px 0px 0px
+            vertical-align: -50%
+    .fb::before
+        background-image: url('../_img/fb.png')
+    .tw::before
+        background-image: url('../_img/tw.png')
+
+#FooterContact
+    display: inline-block
+    width: 180px
+    margin: 8px 0px 0px 0px
+    vertical-align: top
+    address
+        margin: 10px 0px 0px 0px
+        font-size: 0.8em
+        line-height: 1.3em
+    abbr[title]
+        border-bottom: 1px dotted rgba(255,255,255,0.25)

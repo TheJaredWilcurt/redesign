@@ -1,0 +1,120 @@
+
+// The main document, every page on the site refers to this basic document
+
+*,
+*:before,
+*:after
+    -webkit-box-sizing: border-box
+    -moz-box-sizing: border-box
+    box-sizing: border-box
+
+html
+    +bmp0
+    width: 100%
+    height: 100%
+
+body
+    +bmp0
+    width: 100%
+    background-color: $BodyBgColor
+    background-position: 0px 0px
+    background-repeat: repeat
+
+.floatright
+    float: right
+.floatleft
+    float: left
+
+.italic,
+.italics
+    font-style: italic
+
+.gray,
+.grey,
+a.gray,
+a.grey
+    color: #999 !important
+
+a:hover.gray,
+a:hover.grey
+    color: #777 !important
+
+img
+    -ms-interpolation-mode: bicubic
+
+a:link,
+a:visited
+    color: $BaseColor
+
+h1:first-child
+    margin-top: 20px
+
+h1,
+h2
+    font-family: "Trebuchet MS", arial, sans-serif
+    font-variant: small-caps
+    font-weight: bold
+    color: #333
+    letter-spacing: 1px
+    clear: both
+
+h2
+    font-variant: normal
+
+#Wrapper
+    width: $WrapperPageSize
+    margin: 0 auto
+    background-color: #FFF
+
+#MainContentContainer
+    vertical-align: top
+    font-size: 0em
+    background-image: url('../_img/sidebarbg.png')
+    background-repeat: repeat-y
+    background-position: top left
+    p,
+    table,
+    ol,
+    ul
+        font-family: "Trebuchet MS", arial, sans-serif
+        color: #333
+        line-height: 1.35em
+        font-size: 1em
+
+#MainContent
+    display: inline-block
+    width: $MainContentWidth
+    vertical-align: top
+    font-size: 0px
+
+.breadcrumbs
+    height: 31px
+    border-width: 0px 0px 1px 0px
+    border-style: solid
+    border-color: #DEDEDE
+    list-style-type: none
+    padding: 0px
+    margin: 0px !important
+    font-size: 16px !important
+    li
+        background-image: url("../_img/crumbs.png")
+        background-repeat: no-repeat
+        background-position: right center
+        float: left
+        line-height: 31px
+        color: #777
+        list-style-type: none
+        padding: 0em 1em 0em 0.6em
+        margin: 0px
+        a
+            display: block
+            padding: 0px 0px 0px 0px
+            &:link,
+            &:visited
+                color: #777
+                text-decoration: none
+            &:hover,
+            &:focus
+                color: $BreadcrumbsHoverLinkColor
+    li:last-of-type
+        background-image: none

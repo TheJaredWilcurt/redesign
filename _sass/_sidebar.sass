@@ -1,0 +1,48 @@
+#MainSideBar
+    display: inline-block
+    width: $MainSideBarWidth
+    min-height: $MainSideBarHeight
+    max-height: 100%
+    border-width: 0px 0px 0px 0px
+    border-style: solid
+    border-color: $SideBarBorderColor
+    padding: 0px 0px 0px 0px
+    vertical-align: top
+    font-size: 16px
+    h3
+        font-size: 16px
+        font-weight: bold
+        padding: 8px 0px 6px 3px
+        border-width: 0px 1px 1px 0px
+        border-style: solid
+        border-color: $SideBarBorderColor
+        background-color: $SideBarH3DarkColor
+        color: $SidebarH3TextColor
+        &:nth-of-type(odd)
+            background-color: $SideBarH3LightColor
+    div
+        border-width: 0px 1px 0px 0px
+        border-style: solid
+        border-color: $SideBarBorderColor
+    p
+        margin: 0px
+        padding: 6px 0px 3px 10px
+        background-color: #EEE
+        font-size: 0.9em
+    p:nth-of-type(even)
+        background-color: #FAFAFA
+    p:last-of-type
+        border-bottom: 1px solid $SideBarBorderColor
+    .empty
+        border: 0px !important
+        margin: 0px
+        padding: 0px
+        font-size: 0px
+    .selected
+        background-color: $BaseColor !important
+        color: #EEE !important
+        font-weight: bold
+    .selectedsub
+        background-color: $BaseColor !important
+        color: #EEE !important
+        font-weight: bold

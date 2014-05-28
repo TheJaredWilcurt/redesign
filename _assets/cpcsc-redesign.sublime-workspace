@@ -1,0 +1,757 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Base",
+				"BaseColor"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"ba",
+				"baseline"
+			],
+			[
+				"max-",
+				"max-height"
+			],
+			[
+				"EditG",
+				"EditGroupDuration"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"d",
+				"documentElement"
+			],
+			[
+				"icons",
+				"icons64"
+			],
+			[
+				"n",
+				"none"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"border-w",
+				"border-right-width"
+			],
+			[
+				"r",
+				"right"
+			],
+			[
+				"v",
+				"vertical-align"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"t",
+				"table-cell"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"_",
+				"_scripts"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"ma",
+				"margin-top"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"fon",
+				"font-family"
+			],
+			[
+				"text",
+				"text-decoration"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/redesign/default.htm",
+			"settings":
+			{
+				"buffer_size": 11785,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n// Supplies mixins and variables that other .scss files can call\n\n@mixin bmp0\n    border: 0px\n    margin: 0px\n    padding: 0px\n\n@mixin anim($sec)\n    -webkit-transition: all $sec ease\n    -moz-transition: all $sec ease\n    -o-transition: all $sec ease\n    transition: all $sec ease\n\n@mixin gradient($fromColor, $toColor)\n    background-color: $toColor\n    background-image: -webkit-gradient(linear, left top, left bottom, from($fromColor), to($toColor))\n    background-image: -webkit-linear-gradient(top, $fromColor, $toColor)\n    background-image: -moz-linear-gradient(top, $fromColor, $toColor)\n    background-image: -ms-linear-gradient(top, $fromColor, $toColor)\n    background-image: -o-linear-gradient(top, $fromColor, $toColor)\n    background-image: linear-gradient(top, $fromColor, $toColor)\n    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='#{$fromColor}', EndColorStr='#{$toColor}')\n\n// Height and Width Variables\n$WrapperPageSize: 960px\n$MainSideBarWidth: 185px\n$MainSideBarHeight: 900px\n$MainContentWidth: $WrapperPageSize - $MainSideBarWidth\n$TwitterBoxWidth: 529px\n$TwitterBoxHeight: 300px\n$ResourcesBoxPadding: 10px\n$ResourcesBoxWidth: 226px - $ResourcesBoxPadding\n$JoomlaBoxWidth: $TwitterBoxWidth + $ResourcesBoxPadding + $ResourcesBoxWidth\n$JoomlaBoxHeight: 375px\n\n// Base Color Values\n$BaseColor: hsl(228,45,37) //#348 or 228,45,37\n$BaseDark: #223            //#223\n$BaseLight: #56A           //#56A\n$BaseAccent: #FFB          //#FFB\n$BaseTrim: #ED9            //#ED9\n\n// Color Variables\n$BodyBgColor: #223275\n$SearchNavBtnBgColor: saturate(darken($BaseColor, 5), 12)\n$SideBarBorderColor: desaturate(darken($BaseColor, 5.5), 10)\n$SideBarH3DarkColor: saturate(lighten($BaseColor, 60), 100)\n$SideBarH3LightColor: saturate(lighten($BaseColor, 56), 100)\n$SidebarH3TextColor: saturate(darken($BaseColor, 24), 50)\n$BreadcrumbsHoverLinkColor: saturate(lighten(adjust-hue($BaseColor, 138), 28.9), 32) //#F06F61\n$TwitterBorderColor: lighten(desaturate($BaseColor, 45), 55) //#EBEBEB\n$ResourcesH3DarkColor: $BaseColor  //#348\n$ResourcesH3LightColor: $BaseLight //#56A\n$ResourcesH3BorderColor: #237      //#237\n$ResourcesH3TextColor: $BaseTrim   //#ED9\n$FooterColor: saturate(shade($BaseColor, 60), 60)\n$FooterLinkColor: desaturate(lighten($BaseColor, 35), 10)\n$FooterQuoteColor: saturate(darken($BaseColor, 7), 11.5)",
+			"file": "/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/redesign/_sass/_var.sass",
+			"file_size": 2265,
+			"file_write_time": 130453488318236246,
+			"settings":
+			{
+				"buffer_size": 2360,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 311.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: install package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 424.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler( ))); open( os.path.join( ipp, pf), 'wb' ).write( urllib2.urlopen( 'http://sublime.wbond.net/' +pf.replace( ' ','%20' )).read()); print( 'Please restart Sublime Text to finish installation')",
+			"import urllib2,os; pf='Package Control.sublime-package'; ipp=sublime.installed_packages_path(); os.makedirs(ipp) if not os.path.exists(ipp) else None; urllib2.install_opener(urllib2.build_opener(urllib2.ProxyHandler())); open(os.path.join(ipp,pf),'wb').write(urllib2.urlopen('http://sublime.wbond.net/'+pf.replace(' ','%20')).read()); print('Please restart Sublime Text to finish installation')",
+			"https://sublime.wbond.net/alpha/packages.json"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/jwilcurt/Documents/GitHub/DrTaco/script.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/redesign/_sass/_header.sass",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/redesign/_sass/_homepage.sass",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/redesign/_sass/_var.sass",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/redesign/_sass/_main.sass",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/redesign/_sass/_sidebar.sass",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/redesign/default.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/redesign/_sass/_footer.sass",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/redesign/_sass/style.scss",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/redesign/_sass/_flyingfocus.sass",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/redesign/_scripts/main.dev.js",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/redesign/_sass/_mediaqueries.sass",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/redesign/_sass/_meyer.sass",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/redesign/_sass/_normalize.sass",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/redesign/_sass/_crossbrowser.sass",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/redesign/includes/joomlaRSS.cfm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/redesign/test.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/redesign/index.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/redesign/_style/style.css",
+		"/C/Users/jwilcurt/Documents/GitHub/DrTaco/_sass/_main.sass",
+		"/C/Users/jwilcurt/Documents/GitHub/DrTaco/outline.htm",
+		"/C/Users/jwilcurt/Documents/GitHub/DrTaco/_sass/_meyer.sass",
+		"/C/Users/jwilcurt/Documents/GitHub/DrTaco/index.htm",
+		"/C/Users/jwilcurt/Documents/GitHub/DrTaco/.gitattributes",
+		"/C/Users/jwilcurt/Documents/GitHub/DrTaco/.gitignore",
+		"/C/Users/jwilcurt/Documents/GitHub/DrTaco/404.html",
+		"/C/Users/jwilcurt/Documents/GitHub/DrTaco/crossdomain.xml",
+		"/C/Users/jwilcurt/Documents/GitHub/DrTaco/README.md",
+		"/C/Users/jwilcurt/Documents/GitHub/DrTaco/_sass/style.scss",
+		"/C/Users/jwilcurt/Documents/GitHub/DrTaco/_sass/_mediaqueries.sass",
+		"/C/Users/jwilcurt/Documents/GitHub/DrTaco/_sass/_main.scss",
+		"/C/Users/jwilcurt/Documents/GitHub/DrTaco/_sass/_crossbrowser.sass",
+		"/C/Users/jwilcurt/Documents/GitHub/DrTaco/_sass/_footer.sass",
+		"/C/Users/jwilcurt/Documents/GitHub/DrTaco/_sass/_header.sass",
+		"/C/Users/jwilcurt/Documents/GitHub/DrTaco/_sass/_normalize.sass",
+		"/C/Users/jwilcurt/Documents/GitHub/DrTaco/_sass/_var.sass",
+		"/C/Users/jwilcurt/Documents/GitHub/DrTaco/_sass/_flyingfocus.sass",
+		"/C/Users/jwilcurt/Documents/GitHub/DrTaco/_scripts/main.dev.js",
+		"/C/Users/jwilcurt/Documents/GitHub/DrTaco/_scripts/main.js",
+		"/C/Users/jwilcurt/Documents/GitHub/DrTaco/_scripts/jquery-2.0.3.min.js",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/_sass/_crossbrowser.sass",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/_sass/_mediaqueries.sass",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/_sass/_var.sass",
+		"/E/_Week 2/_scripts/main.dev.js",
+		"/E/Mt. Mograph/index.htm",
+		"/E/Mt. Mograph/_htm/42.htm",
+		"/E/_Week 2/index.htm",
+		"/E/_Week 2/_htm/warp.htm",
+		"/E/_Week 2/_style/style.css",
+		"/C/Users/jwilcurt/Desktop/fancyapps-fancyBox-18d1712/demo/index.html",
+		"/E/_Week 2/_style/fancybox.css",
+		"/E/Mt. Mograph/_htm/40.htm",
+		"/E/Mt. Mograph/_htm/41.htm",
+		"/E/Mt. Mograph/_htm/template.htm",
+		"/E/Mt. Mograph/_htm/39.htm",
+		"/E/Mt. Mograph/_htm/38.htm",
+		"/E/Mt. Mograph/_htm/36.htm",
+		"/E/Mt. Mograph/_htm/37.htm",
+		"/E/Mt. Mograph/_htm/35.htm",
+		"/E/Mt. Mograph/_htm/34.htm",
+		"/E/Mt. Mograph/_htm/33.htm",
+		"/E/Mt. Mograph/_htm/32.htm",
+		"/E/Mt. Mograph/_htm/31.htm",
+		"/E/Mt. Mograph/_htm/30.htm",
+		"/E/Mt. Mograph/_htm/29.htm",
+		"/E/Mt. Mograph/_htm/28.htm",
+		"/E/Mt. Mograph/_htm/27.htm",
+		"/E/Mt. Mograph/_htm/26.htm",
+		"/E/Mt. Mograph/_htm/25.htm",
+		"/E/Mt. Mograph/_htm/23.htm",
+		"/E/Mt. Mograph/_htm/24.htm",
+		"/E/Mt. Mograph/_htm/22.htm",
+		"/E/Mt. Mograph/_htm/21.htm",
+		"/E/Mt. Mograph/_htm/20.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/default.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/categories.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/template.htm",
+		"/C/Users/jwilcurt/AppData/Local/Temp/Rar$DRa0.052/README.md",
+		"/C/Users/jwilcurt/Documents/Portable Apps/Sublime Text 3/Data/Installed Packages/AdvancedNewFile.sublime-package",
+		"/C/Users/jwilcurt/Desktop/ui-candidate-test-nmhai3/Screenshot.html",
+		"/C/Users/jwilcurt/Desktop/ui-candidate-test-nmhai3/JsAndDom.html",
+		"/C/Users/jwilcurt/Desktop/ui-candidate-test-nmhai3/meta.txt",
+		"/C/Users/jwilcurt/Desktop/ui-candidate-test-nmhai3/jsanddom.js",
+		"/C/Users/jwilcurt/Desktop/ui-candidate-test-nmhai3/screenshot.css",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/_sass/_main.sass",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/_sass/_login.sass",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/_sass/_login (Webzilla CPCSC's conflicted copy 2013-12-18).sass",
+		"/H/Power School Enrollment Check list/Enrollment Checklist.html",
+		"/H/Power School Enrollment Check list/Enrollment Checklist (original).html",
+		"/H/Power School Enrollment Check list/Enrollment Checklist.txt",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/login.cfm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/DonutMaster.Bat",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/categories/ces.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/categories/cpcscinthenews.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/categories/cpms.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/categories/edutainment.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/categories/instructional.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/categories/pces.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/categories/staff.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/categories/technology.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/categories/wchs.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/enccalc.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/loggedin.cfm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/search.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/testicons.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/upload.cfm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/upload.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/video.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/_sass/_icons.scss",
+		"/C/Users/jwilcurt/Documents/GitHub/TJW_Boilerplate/sass/_crossbrowser.sass",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/_sass/_controlpanel.sass",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/_style/style.css",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/default.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/loggedin.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/login.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/test.htm",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/_sass/_header.sass",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/_scripts/main.js",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/_scripts/main.devbak.js",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/_scripts/main.dev.js",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/_sass/_enchelp.sass",
+		"/C/Users/jwilcurt/Documents/TJW AutoIT/TJW Reference sheet.txt",
+		"/C/Users/jwilcurt/Documents/TJW AutoIT/APL downvote.au3",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/_sass/_videos.sass",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/notes.txt",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/_sass/_homepage.sass",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/_sass/style.scss",
+		"/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/flashforward/_sass/_upload.sass"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#F06F61",
+			"#",
+			"010",
+			"ecf",
+			"d9e",
+			"9da",
+			"style",
+			"$ResourcesBoxPadding",
+			"body",
+			"html",
+			"taco",
+			"base",
+			"348",
+			"334488",
+			"348",
+			"334488",
+			"348",
+			"334488",
+			"348",
+			"MainContentWidth",
+			"250px",
+			"900",
+			"        ",
+			"conte",
+			"348",
+			";",
+			"Assistant",
+			".",
+			"/",
+			"&",
+			"&nbsp;",
+			"</option>",
+			"\n",
+			"\n\n",
+			"adjust",
+			"????",
+			"vid",
+			"iframe",
+			"png",
+			"gif",
+			"????",
+			"<strong>",
+			"<p>",
+			"bg",
+			" </a>",
+			"<br>",
+			"1 chan",
+			"ff",
+			"mp3",
+			"17  ",
+			"event.returnValue",
+			"h1",
+			"em",
+			"h1",
+			"%\n",
+			"h2>",
+			"  ",
+			":  ",
+			"  ",
+			"}",
+			"    }",
+			"        }",
+			"            }",
+			"             }",
+			"                }",
+			"                    }",
+			"                            }",
+			";",
+			"{",
+			" {",
+			"{",
+			"}",
+			";",
+			"EditGroupTitle",
+			",",
+			";",
+			"}",
+			"{",
+			" {",
+			";",
+			"config",
+			"null",
+			"#",
+			"key",
+			".swf",
+			"  ",
+			"normalize",
+			"/*",
+			";\n",
+			"%;\n",
+			"888",
+			"float: left;",
+			"0px",
+			"  ",
+			"dropzone",
+			"+k",
+			"k",
+			">\n",
+			"\n    ",
+			"  ",
+			"	",
+			"  ",
+			" ",
+			"  ",
+			" -546",
+			"-1792",
+			" -546",
+			" -468",
+			" -390",
+			" -312",
+			" -234",
+			" -156",
+			" -512",
+			"78",
+			"-1536",
+			" -468",
+			" -390",
+			" -312",
+			"-234",
+			"-156",
+			" -256",
+			"78",
+			"546",
+			"468",
+			"390",
+			"-312",
+			"-234",
+			"-156"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"	",
+			"Asst",
+			"",
+			"-",
+			" ",
+			"",
+			"<br />",
+			"fail",
+			"h3>",
+			"    ",
+			"",
+			" ",
+			"DropZone",
+			" ",
+			"-1792",
+			"-1536",
+			"-3584",
+			"-3072",
+			"-2560",
+			"-2048",
+			"-1536",
+			"-1024",
+			"-512",
+			"512",
+			"-1792",
+			"-1536",
+			"-1280",
+			"-1024",
+			"-768",
+			"-512",
+			"-256",
+			"256",
+			"896",
+			"768",
+			"640",
+			"-512",
+			"-384",
+			"-256",
+			"-128",
+			"128",
+			"-546",
+			"-468",
+			"-390",
+			"-312",
+			"-234",
+			"-156",
+			"78",
+			"-156",
+			"78",
+			"@include bmp0;",
+			"-448",
+			"-384",
+			"-320",
+			"-256",
+			"-192",
+			"-128",
+			"64",
+			"-336",
+			"-288",
+			"-240",
+			"-192",
+			"-144",
+			"-96",
+			"48",
+			"-96",
+			"48",
+			"-224",
+			"-192",
+			"-160",
+			"-128",
+			"-96",
+			"-64",
+			"-32",
+			"-112",
+			" -96",
+			" -80",
+			" -64",
+			"64",
+			"48",
+			"32",
+			"16",
+			"p.EditGroupTitle",
+			"p.EditGroupDuration",
+			"p.EditGroupCat",
+			"p.EditGroupSize",
+			"p.EditGroupCat",
+			"p.EditGroupDuration",
+			"p.EditGroupTitle",
+			"",
+			"SortSize",
+			"SortTitle",
+			"div",
+			"#EditUploads.",
+			".thumbView",
+			"Edit",
+			"",
+			"truncate",
+			"ellipsis multiline",
+			"truncatemultiline",
+			".htm",
+			"#F06F61"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/redesign/default.htm",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11785,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6058,
+								6058
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1582.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "/C/Users/jwilcurt/Dropbox/CPCSC Beta Test/redesign/_sass/_var.sass",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2360,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2007,
+								2007
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.330281178378,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 180.0
+	},
+	"project": "cpcsc-redesign.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": false,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"temp",
+				"template.htm"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\jwilcurt\\Dropbox\\Public\\goodnewsbadwolf\\gnbw-tjw.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 140.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
